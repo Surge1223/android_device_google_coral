@@ -59,6 +59,9 @@ PRODUCT_COPY_FILES += \
 #PRODUCT_PROPERTY_OVERRIDES += \
 #    ro.control_privapp_permissions=enforce
 
+PRODUCT_COPY_FILES += \
+    device/google/coral/permissions/privapp-permissions-aosp.xml:product/etc/permissions/privapp-permissions-aosp.xml
+
 # RCS
 PRODUCT_PACKAGES += \
     com.android.ims.rcsmanager \
