@@ -360,7 +360,6 @@
     <!-- Boolean indicating whether the wifi chipset has background scan support -->
     <bool translatable="false" name="config_wifi_background_scan_support">true</bool>
 
-
     <!-- Wifi driver supports batched scan -->
     <bool translatable="false" name="config_wifi_batched_scan_supported">true</bool>
 
@@ -619,5 +618,20 @@
 
     <!-- Disable AOD by default -->
     <bool name="config_dozeAlwaysOnEnabled">false</bool>
+
+    <!-- If the sensor that skips media is available or not. -->
+    <bool name="config_skipSensorAvailable">true</bool>
+
+    <!-- If the sensor that silences alerts is available or not. -->
+    <bool name="config_silenceSensorAvailable">true</bool>
+
+    <!-- Whether cbrs is supported on the device or not -->
+    <bool translatable="false" name="config_cbrs_supported">true</bool>
+
+    <!-- Whether or not aware is enabled by default -->
+    <bool name="config_awareSettingAvailable">true</bool>
+
+    <!-- Keyguard component -->
+    <string name="config_keyguardComponent" translatable="false">com.android.systemui/com.android.systemui.keyguard.KeyguardService</string>
 
 </resources>
