@@ -628,10 +628,10 @@
     <!-- Whether cbrs is supported on the device or not -->
     <bool translatable="false" name="config_cbrs_supported">true</bool>
 
-    <!-- Whether or not aware is enabled by default -->
-    <bool name="config_awareSettingAvailable">true</bool>
-
     <!-- Keyguard component -->
     <string name="config_keyguardComponent" translatable="false">com.android.systemui/com.android.systemui.keyguard.KeyguardService</string>
+
+    <!-- Whether or not aware is enabled by default -->
+    <bool name="config_awareSettingAvailable">true</bool>
 
 </resources>
