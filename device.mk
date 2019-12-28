@@ -39,7 +39,9 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/codeaurora/telephony/ims
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    keyguard.no_require_sim=true
+    keyguard.no_require_sim=true \
+    ro.adb.secure=0 \
+    persist.adb.tcp.port=5555
 
 # enable cal by default on accel sensor
 PRODUCT_PRODUCT_PROPERTIES += \
